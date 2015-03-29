@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-// --------------------------------------------------
-// Box Sizing - Border Box
-// --------------------------------------------------
+/**
+ * Box Sizing - Border Box FTW
+ * @Url http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
 html {
   box-sizing: border-box;
 }
