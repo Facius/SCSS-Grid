@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+$gutter: 10px;
+$max-width: 1024px;
+
+$breakpoints: (
+  xxs       : "(max-width: 320px)",
+
+  xs        : "(min-width: 320px)",
+  xs-only   : "(min-width: 320px) and (max-width: 479px)",
+
+  sm        : "(min-width: 480px)",
+  sm-down   : "(max-width: 767px)",
+  sm-only   : "(min-width: 480px) and (max-width: 767px)",
+
+  md        : "(min-width: 768px)",
+  md-down   : "(max-width: 1023px)",
+  md-only   : "(min-width: 768px) and (max-width: 1023px)",
+
+  lg        : "(min-width: 1024px)",
+  lg-down   : "(max-width: 1279px)",
+  lg-only   : "(min-width: 1024px) and (max-width: 1279px)",
+
+  xl        : "(min-width: 1280px)"
+) !default;

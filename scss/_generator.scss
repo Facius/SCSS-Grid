@@ -1,0 +1,38 @@
+
+@charset "UTF-8";
+
+// Grid Profiles
+$grid-profiles: (
+  xs: ( columns: 12, container-gutter: 5px, column-gutter: 5px, max-width: 320px ),
+  sm: ( columns: 12, container-gutter: 5px, column-gutter: 5px, max-width: 480px ),
+  md: ( columns: 12, container-gutter: 5px, column-gutter: 5px, max-width: 768px ),
+  lg: ( columns: 12, container-gutter: 5px, column-gutter: 5px, max-width: 1024px ),
+  xl: ( columns: 12, container-gutter: 5px, column-gutter: 5px, max-width: 1280px )
+  ) !default;
+
+.row {
+  @include clearfix;
+}
+
+// Loop through each profile
+@each $profile, $options in $grid-profiles {
+  $i: 1;
+
+  // Create media quiery
+  @include breakpoint($profile) {
+
+    .container {
+      @include container(map-get($options, max-width));
+      @include gutter(map-get($options, container-gutter));
+    }
+
+    // Create Columns
+    @while $i <= map-get($options, columns) {
+      .col-#{$profile}-#{$i} {
+        @include span($i / map-get($options, columns));
+        @include gutter(map-get($options, column-gutter));
+      }
+      $i: $i + 1;
+    }
+  }
+}

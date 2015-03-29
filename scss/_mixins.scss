@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/**
+ * Clearfix Mixin
+ */
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/**
+ * Container Mixin
+ * @param  {int} $max-width - !optional
+ */
+@mixin container($max-width : $max-width) {
+  @include clearfix;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+/**
+ * Gutter Mixin
+ * @param  {[type]} $gutter - gutter width !optional
+ */
+@mixin gutter($gutter : $gutter) {
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+
+/**
+ * Span Mixin
+ * @param  {number} $width - 1/4 or 0.25 for 25% width
+ * @param  {string} $direction - float left or right !optional
+ */
+@mixin span($width, $direction : left) {
+  display: block;
+  width: percentage($width);
+  @if $direction {
+    float: $direction;
+  } @else {
+    float: left;
+  }
+}
+
+/**
+ * Breakpoint mixin
+ * @param  {string} breakpoint name
+ *
+ * Inspired by: http://www.sitepoint.com/using-sass-maps/
+ */
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Error: `#{$breakpoint}` was not defined in `$breakpoints`";
+  }
+}
