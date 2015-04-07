@@ -7,7 +7,7 @@ Just include or merge the following with your scss:
 - _settings.scss
 - _grid.scss
 
-BEM CSS Example:
+Grid Generator Example (Bootstrap Style):
 
     .someClass {
 
@@ -37,8 +37,7 @@ BEM CSS Example:
       }
     }
 
-
-Grid Generator Example (Bootstrap Style):
+BEM CSS Example:
 
      <div class="container">
         <div class="col-xs-12 col-md-6">
