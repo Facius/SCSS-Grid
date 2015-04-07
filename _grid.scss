@@ -38,11 +38,7 @@
 @mixin span($width, $direction : left) {
   display: block;
   width: percentage($width);
-  @if $direction {
-    float: $direction;
-  } @else {
-    float: left;
-  }
+  float: $direction;
 }
 
 /**
