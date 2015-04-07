@@ -4,10 +4,21 @@ Float and percentage based grid, easy to modify and use.
 
 Just include or merge the following with your scss:
 
-- scss/_settings.scss
-- scss/_mixins.scss
+- _settings.scss
+- _grid.scss
 
-Example:
+Grid Generator Example (Bootstrap Style):
+
+     <div class="container">
+        <div class="col-xs-12 col-md-6">
+        <div class="col-content">col-xs-12 col-md-6</div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+        <div class="col-content">col-xs-12 col-md-6</div>
+        </div>
+    </div>
+
+BEM CSS Example:
 
     .someClass {
 
@@ -55,30 +66,47 @@ You could set it up in the gutter mixin if you dont want it set globally.
 
 ## Settings
 **$gutter**
-the default gutter size used by the gutter mixin.
+
+The default gutter size used by the gutter mixin.
+
 
 **$max-width**
-the max width for the container mixin.
+
+The max width for the container mixin.
+
 
 **$breakpoints**
-a map of the media quaries used by the breakpoint mixin.  
+
+A map of the media quaries used by the breakpoint mixin.  
+
 
 ## Mixins
 **@include clearfix();**
+
 Just a simple clearfix mixin, you can use your own if you want to.
 
+
 **@include container($max-width !optional);**
+
 A container mixin that sets a max-with, and includes a clearfix.
 
+
 **@include gutter($size !optional);**
+
 Sets padding left and right.
 
+
 **@include span($width);**
+
 Floats the element and gives it a percentage based width, use 1/4 or 0.25 to have an element span 1 of 4 columns.
 
+
 **@include breakpoint(breakpoint);**
+
 Creates a media quary and includes the contents its given.
 
+
 ## Generator
-Creates a bootstrap style grid with column classes. (todo: document)
-**$grid-profiles**
+Creates a bootstrap style grid with column classes.
+
+**$grid-profiles**  (todo: document)

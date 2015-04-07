@@ -11,9 +11,9 @@ html {
   box-sizing: inherit;
 }
 
-@import "settings";
-@import "mixins";
-@import "generator";
+@import "../../settings";
+@import "../../grid";
+@import "../../generator";
 
 .container {
   background-color: #e0e0e0;
