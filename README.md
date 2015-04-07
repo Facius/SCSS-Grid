@@ -40,12 +40,8 @@ SCSS Example:
 Grid Generator Example (Bootstrap Style):
 
      <div class="container">
-        <div class="col-xs-12 col-md-6">
-        <div class="col-content">col-xs-12 col-md-6</div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-        <div class="col-content">col-xs-12 col-md-6</div>
-        </div>
+        <div class="col-xs-12 col-md-6">col-xs-12 col-md-6</div>
+        <div class="col-xs-12 col-md-6">col-xs-12 col-md-6</div>
     </div>
 
 
