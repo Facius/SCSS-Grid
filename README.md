@@ -1,22 +1,11 @@
 # SCSS Grid
-Some very simple mixins to simplify your scss.
+Some very simple mixins to simplify your scss layout.
 Media quary helpers, float and percentage based grid, easy to modify and use.
 
 Just include or merge the following with your scss:
 
 - _settings.scss
 - _grid.scss
-
-Grid Generator Example (Bootstrap Style):
-
-     <div class="container">
-        <div class="col-xs-12 col-md-6">
-        <div class="col-content">col-xs-12 col-md-6</div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-        <div class="col-content">col-xs-12 col-md-6</div>
-        </div>
-    </div>
 
 BEM CSS Example:
 
@@ -47,6 +36,18 @@ BEM CSS Example:
         }
       }
     }
+
+
+Grid Generator Example (Bootstrap Style):
+
+     <div class="container">
+        <div class="col-xs-12 col-md-6">
+        <div class="col-content">col-xs-12 col-md-6</div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+        <div class="col-content">col-xs-12 col-md-6</div>
+        </div>
+    </div>
 
 
 ### Box Sizing
