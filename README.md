@@ -1,6 +1,6 @@
 # SCSS Grid
-A very simple mixin standalone library to simplify your scss.
-Float and percentage based grid, easy to modify and use.
+Some very simple mixins to simplify your scss.
+Media quary helpers, float and percentage based grid, easy to modify and use.
 
 Just include or merge the following with your scss:
 
