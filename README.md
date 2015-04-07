@@ -66,43 +66,35 @@ You could set it up in the gutter mixin if you dont want it set globally.
 
 ## Settings
 **$gutter**
-
 The default gutter size used by the gutter mixin.
 
 
 **$max-width**
-
 The max width for the container mixin.
 
 
 **$breakpoints**
-
 A map of the media quaries used by the breakpoint mixin.  
 
 
 ## Mixins
 **@include clearfix();**
-
 Just a simple clearfix mixin, you can use your own if you want to.
 
 
 **@include container($max-width !optional);**
-
 A container mixin that sets a max-with, and includes a clearfix.
 
 
 **@include gutter($size !optional);**
-
 Sets padding left and right.
 
 
 **@include span($width);**
-
 Floats the element and gives it a percentage based width, use 1/4 or 0.25 to have an element span 1 of 4 columns.
 
 
 **@include breakpoint(breakpoint);**
-
 Creates a media quary and includes the contents its given.
 
 
