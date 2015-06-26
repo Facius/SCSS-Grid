@@ -1,18 +1,4 @@
 /**
- * Box Sizing - Border Box FTW
- * @Url http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- */
-/* line 7, scss/main.scss */
-html {
-  box-sizing: border-box;
-}
-
-/* line 10, scss/main.scss */
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/**
  * Clearfix Mixin
  */
 /**
@@ -46,6 +32,7 @@ html {
   .container {
     max-width: 320px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -61,6 +48,7 @@ html {
     display: block;
     width: 8.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -70,6 +58,7 @@ html {
     display: block;
     width: 16.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -79,6 +68,7 @@ html {
     display: block;
     width: 25%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -88,6 +78,7 @@ html {
     display: block;
     width: 33.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -97,6 +88,7 @@ html {
     display: block;
     width: 41.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -106,6 +98,7 @@ html {
     display: block;
     width: 50%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -115,6 +108,7 @@ html {
     display: block;
     width: 58.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -124,6 +118,7 @@ html {
     display: block;
     width: 66.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -133,6 +128,7 @@ html {
     display: block;
     width: 75%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -142,6 +138,7 @@ html {
     display: block;
     width: 83.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -151,6 +148,7 @@ html {
     display: block;
     width: 91.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -160,6 +158,7 @@ html {
     display: block;
     width: 100%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -169,6 +168,7 @@ html {
   .container {
     max-width: 480px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -184,6 +184,7 @@ html {
     display: block;
     width: 8.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -193,6 +194,7 @@ html {
     display: block;
     width: 16.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -202,6 +204,7 @@ html {
     display: block;
     width: 25%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -211,6 +214,7 @@ html {
     display: block;
     width: 33.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -220,6 +224,7 @@ html {
     display: block;
     width: 41.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -229,6 +234,7 @@ html {
     display: block;
     width: 50%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -238,6 +244,7 @@ html {
     display: block;
     width: 58.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -247,6 +254,7 @@ html {
     display: block;
     width: 66.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -256,6 +264,7 @@ html {
     display: block;
     width: 75%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -265,6 +274,7 @@ html {
     display: block;
     width: 83.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -274,6 +284,7 @@ html {
     display: block;
     width: 91.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -283,6 +294,7 @@ html {
     display: block;
     width: 100%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -292,6 +304,7 @@ html {
   .container {
     max-width: 768px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -307,6 +320,7 @@ html {
     display: block;
     width: 8.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -316,6 +330,7 @@ html {
     display: block;
     width: 16.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -325,6 +340,7 @@ html {
     display: block;
     width: 25%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -334,6 +350,7 @@ html {
     display: block;
     width: 33.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -343,6 +360,7 @@ html {
     display: block;
     width: 41.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -352,6 +370,7 @@ html {
     display: block;
     width: 50%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -361,6 +380,7 @@ html {
     display: block;
     width: 58.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -370,6 +390,7 @@ html {
     display: block;
     width: 66.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -379,6 +400,7 @@ html {
     display: block;
     width: 75%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -388,6 +410,7 @@ html {
     display: block;
     width: 83.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -397,6 +420,7 @@ html {
     display: block;
     width: 91.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -406,6 +430,7 @@ html {
     display: block;
     width: 100%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -415,6 +440,7 @@ html {
   .container {
     max-width: 1024px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -430,6 +456,7 @@ html {
     display: block;
     width: 8.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -439,6 +466,7 @@ html {
     display: block;
     width: 16.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -448,6 +476,7 @@ html {
     display: block;
     width: 25%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -457,6 +486,7 @@ html {
     display: block;
     width: 33.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -466,6 +496,7 @@ html {
     display: block;
     width: 41.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -475,6 +506,7 @@ html {
     display: block;
     width: 50%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -484,6 +516,7 @@ html {
     display: block;
     width: 58.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -493,6 +526,7 @@ html {
     display: block;
     width: 66.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -502,6 +536,7 @@ html {
     display: block;
     width: 75%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -511,6 +546,7 @@ html {
     display: block;
     width: 83.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -520,6 +556,7 @@ html {
     display: block;
     width: 91.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -529,6 +566,7 @@ html {
     display: block;
     width: 100%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -538,6 +576,7 @@ html {
   .container {
     max-width: 1280px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -553,6 +592,7 @@ html {
     display: block;
     width: 8.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -562,6 +602,7 @@ html {
     display: block;
     width: 16.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -571,6 +612,7 @@ html {
     display: block;
     width: 25%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -580,6 +622,7 @@ html {
     display: block;
     width: 33.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -589,6 +632,7 @@ html {
     display: block;
     width: 41.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -598,6 +642,7 @@ html {
     display: block;
     width: 50%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -607,6 +652,7 @@ html {
     display: block;
     width: 58.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -616,6 +662,7 @@ html {
     display: block;
     width: 66.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -625,6 +672,7 @@ html {
     display: block;
     width: 75%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -634,6 +682,7 @@ html {
     display: block;
     width: 83.33333%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -643,6 +692,7 @@ html {
     display: block;
     width: 91.66667%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -652,18 +702,64 @@ html {
     display: block;
     width: 100%;
     float: left;
+    box-sizing: border-box;
     padding-left: 5px;
     padding-right: 5px;
   }
 }
-/* line 18, scss/main.scss */
+/* line 8, scss/main.scss */
+body:before {
+  background: #8C8C8C;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  content: "xxs";
+  display: block;
+  font-family: monospace;
+  padding: 0.25em 0.5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: z-index(9999);
+}
+@media (min-width: 320px) {
+  /* line 8, scss/main.scss */
+  body:before {
+    content: "xs";
+  }
+}
+@media (min-width: 480px) {
+  /* line 8, scss/main.scss */
+  body:before {
+    content: "sm";
+  }
+}
+@media (min-width: 768px) {
+  /* line 8, scss/main.scss */
+  body:before {
+    content: "md";
+  }
+}
+@media (min-width: 1024px) {
+  /* line 8, scss/main.scss */
+  body:before {
+    content: "lg";
+  }
+}
+@media (min-width: 1280px) {
+  /* line 8, scss/main.scss */
+  body:before {
+    content: "xl";
+  }
+}
+
+/* line 27, scss/main.scss */
 .container {
   background-color: #e0e0e0;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 24, scss/main.scss */
+/* line 33, scss/main.scss */
 .col-content {
   padding: 2em 0;
   margin: 5px 0;

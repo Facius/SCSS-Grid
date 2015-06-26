@@ -26,6 +26,7 @@
  * @param  {[type]} $gutter - gutter width !optional
  */
 @mixin gutter($gutter : $gutter) {
+  box-sizing: border-box;
   padding-left: $gutter;
   padding-right: $gutter;
 }

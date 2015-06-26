@@ -1,19 +1,28 @@
 @charset "UTF-8";
 
-/**
- * Box Sizing - Border Box FTW
- * @Url http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 @import "../../settings";
 @import "../../grid";
 @import "../../generator";
+
+body {
+  &:before {
+    background: #8C8C8C;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    content: "xxs";
+    display: block;
+    font-family: monospace;
+    padding: 0.25em 0.5em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: z-index(9999);
+
+    @each $bp in xs, sm, md, lg, xl {
+      @include breakpoint($bp) { content: "#{$bp}"; }
+    }
+  }
+}
 
 .container {
   background-color: #e0e0e0;
